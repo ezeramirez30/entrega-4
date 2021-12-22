@@ -1,0 +1,179 @@
+//variable//
+$porcentaje: 100%;
+
+/*movil */
+
+@media (max-width: 609px){
+
+    //general//
+    .menu ul {
+        padding-left:0;
+        
+            li{
+            display: block;
+            text-decoration: none;
+            }
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    transition: none;
+                }
+    }
+
+    .posicionTitulo{
+        position: absolute;
+        left: 80px;
+    }
+    
+    main {
+
+    .textos{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        text-align: center;
+       
+        }
+    }
+
+    //index//
+
+    .tituloDos {
+        font-size:30px;
+        font-family:'Smooch', cursive;
+        text-align: center;
+    } 
+
+    .textoBienvenida{
+        font-size: 15px;
+    }
+
+    //atracciones//
+
+    .tituloAtracciones{
+        font-family: 'Smooch', cursive;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .hashtag{
+        font-size: 40px;
+    }
+
+
+    //zonas//
+
+    .tituloZonas{
+        font-size: 50px;
+    }
+
+    .subtitulosImagen{
+        font-style: oblique;
+        bottom: 100px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    div {
+        .textosZonas{
+        margin: 0px;
+        bottom:20px;
+        font-size: 20px;
+        }
+
+    }   
+    
+    //historia//
+
+    .tituloHistoria{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .containerHistoria{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        
+            .imagenIzquierda{
+                width: 100px;
+                float: none;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .imagenDerecha{
+                width: 100%;
+                float:none;
+            }
+                .textoHistoria{
+                    font-size: 15px;
+                }
+    }
+}
+
+
+/*tablets*/
+
+@media (min-width:610px) and (max-width:1023px){
+    
+    .menu{
+        text-align: center;
+
+        .contenedor{
+            width: $porcentaje;
+            height: 40px;
+        }
+            ul{
+                width:$porcentaje;
+                padding:0px;
+                padding-top: 5px;
+            }
+                ul li{
+                    display: inline;
+                    text-decoration: none;
+                    padding:2vw 4vw;
+                    }
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-family: 'Roboto', sans-serif;
+                            transition: none;
+                        }
+            }
+    .posicionTitulo{
+        left:110px;
+    }
+    
+    .tituloDos{
+        font-size:50px;
+    }
+
+    //atracciones// 
+
+    .tituloAtracciones{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .textoAtracciones{
+        font-size: 10px;
+    }
+
+    //zonas//
+    
+    .subtitulosImagen{
+        font-style: oblique;
+        bottom: 140px;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+}
+
+
+
+

@@ -1,0 +1,361 @@
+.posicionTitulo {
+  position: absolute;
+  top: 0vw;
+  left: 250px;
+  font-size: 10vw;
+  color: white; }
+
+.tituloDos {
+  font-size: 90px;
+  font-family: 'Smooch', cursive;
+  text-align: center; }
+
+.tituloAtracciones {
+  font-family: 'Smooch', cursive;
+  text-align: center;
+  font-size: 90px; }
+
+.hashtag {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: chartreuse; }
+
+.tituloZonas {
+  font-family: 'Smooch', cursive;
+  text-align: center;
+  font-size: 90px; }
+
+.subtitulosImagen {
+  font-style: oblique;
+  position: relative;
+  bottom: 400px;
+  font-size: 150px;
+  text-align: center;
+  color: white; }
+
+.tituloHistoria {
+  font-family: 'Smooch', cursive;
+  text-align: left;
+  font-size: 100px; }
+
+.subtituloGaleses {
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px; }
+
+/*movil */
+@media (max-width: 609px) {
+  .menu ul {
+    padding-left: 0; }
+    .menu ul li {
+      display: block;
+      text-decoration: none; }
+    .menu ul a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      transition: none; }
+  .posicionTitulo {
+    position: absolute;
+    left: 80px; }
+  main .textos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center; }
+  .tituloDos {
+    font-size: 30px;
+    font-family: 'Smooch', cursive;
+    text-align: center; }
+  .textoBienvenida {
+    font-size: 15px; }
+  .tituloAtracciones {
+    font-family: 'Smooch', cursive;
+    text-align: center;
+    font-size: 50px; }
+  .hashtag {
+    font-size: 40px; }
+  .tituloZonas {
+    font-size: 50px; }
+  .subtitulosImagen {
+    font-style: oblique;
+    bottom: 100px;
+    font-size: 35px;
+    text-align: center; }
+  div .textosZonas {
+    margin: 0px;
+    bottom: 20px;
+    font-size: 20px; }
+  .tituloHistoria {
+    font-size: 50px;
+    text-align: center; }
+  .containerHistoria {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center; }
+    .containerHistoria .imagenIzquierda {
+      width: 100px;
+      float: none;
+      align-items: center;
+      justify-content: center; }
+    .containerHistoria .imagenDerecha {
+      width: 100%;
+      float: none; }
+    .containerHistoria .textoHistoria {
+      font-size: 15px; } }
+
+/*tablets*/
+@media (min-width: 610px) and (max-width: 1023px) {
+  .menu {
+    text-align: center; }
+    .menu .contenedor {
+      width: 100%;
+      height: 40px; }
+    .menu ul {
+      width: 100%;
+      padding: 0px;
+      padding-top: 5px; }
+    .menu ul li {
+      display: inline;
+      text-decoration: none;
+      padding: 2vw 4vw; }
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      transition: none; }
+  .posicionTitulo {
+    left: 110px; }
+  .tituloDos {
+    font-size: 50px; }
+  .tituloAtracciones {
+    text-align: center;
+    font-size: 60px; }
+  .textoAtracciones {
+    font-size: 10px; }
+  .subtitulosImagen {
+    font-style: oblique;
+    bottom: 140px;
+    font-size: 50px;
+    text-align: center; } }
+
+.textoBienvenida {
+  display: flex;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.textos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px; }
+
+.textosZonas {
+  position: relative;
+  bottom: 150px;
+  text-align: center;
+  margin: 80px;
+  font-style: oblique;
+  font-size: 30px; }
+
+/* card index */
+.containerCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw; }
+
+.card {
+  width: 350px;
+  padding: 2vw;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease; }
+  .card img {
+    width: 100%;
+    height: 150px; }
+  .card h4, .card p, .card a {
+    padding: 1vw;
+    text-align: center; }
+  .card a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2vw;
+    margin-top: 1vw;
+    color: darkturquoise;
+    border: 1px solid darkturquoise;
+    border-radius: 0.5vw; }
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1); }
+
+/* Cards Deportes */
+.containerCardDeportes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  justify-content: center; }
+
+.item {
+  width: 350px;
+  margin: 5px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: transform .3s;
+  margin-top: 50px; }
+  .item img {
+    width: 100%;
+    height: 250px; }
+  .item h3, .item p {
+    text-align: center;
+    background: white; }
+
+.item:hover {
+  transform: scale(1.1); }
+
+.containerGaleria {
+  display: grid;
+  grid-template-columns: repeat(3fr, 1.5fr);
+  grid-auto-rows: 400px;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.itemGaleria:nth-child(3) {
+  grid-row-start: span 2; }
+
+.itemGaleria:nth-child(6) {
+  grid-column-start: span 2; }
+
+.itemGaleria:nth-child(9) {
+  grid-column-start: span 2; }
+
+.itemGaleria:nth-child(11) {
+  grid-row-start: span 2; }
+
+.itemGaleria:nth-child(13) {
+  grid-column-start: span 2; }
+
+.itemGaleria {
+  width: 100%;
+  position: relative;
+  cursor: pointer; }
+
+.imagenGaleria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 500ms ease-out; }
+
+.textoAparecer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(173, 255, 47, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center; }
+  .textoAparecer h4 {
+    color: white; }
+
+.itemGaleria:hover > .textoAparecer {
+  opacity: 1;
+  visibility: visible; }
+
+.itemGaleria:hover > .textoAparecer h4 {
+  margin-top: 150px;
+  margin-bottom: 15px; }
+
+/* selector global */
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%; }
+
+body {
+  background: aliceblue; }
+
+/* CLASES*/
+.logoPosicion {
+  position: absolute;
+  top: 0px; }
+
+/*Menu */
+.contenedor {
+  width: 80%;
+  margin: 0 auto; }
+
+.menu {
+  width: 100%;
+  background: black;
+  text-align: center; }
+  .menu div {
+    width: 100%; }
+  .menu ul {
+    list-style: none; }
+  .menu li {
+    display: inline-block;
+    padding: 1.5vw 6vw;
+    transition: all .3s ease; }
+  .menu li:hover {
+    transform: scale(1.2);
+    background: aqua; }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; }
+
+/*video Youtube index */
+.videoYoutube {
+  width: 100%;
+  height: 40vw;
+  position: relative; }
+
+.videoYoutube iframe {
+  position: abosule;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%; }
+
+.footer {
+  text-align: center; }
+
+.containerHistoria {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center; }
+  .containerHistoria .imagenIzquierda {
+    width: 500px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px; }
+  .containerHistoria .imagenDerecha {
+    width: 500px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px; }
+  .containerHistoria .textoHistoria {
+    text-align: justify-all;
+    font-size: 25px; }

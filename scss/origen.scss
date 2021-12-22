@@ -1,0 +1,129 @@
+//IMPORTS//
+
+@import "titulos.scss";
+@import "mediaqueries.scss";
+@import "texto.scss";
+@import "cards.scss";
+@import "galeria.scss";
+
+//VARIABLES//
+
+$porcentaje: 100%;
+
+
+/* selector global */ * {
+    margin:0; padding: 0;
+}
+
+header{
+    width:100%;
+}
+
+body{
+    background: aliceblue;
+}
+
+
+
+
+/* CLASES*/
+.logoPosicion{
+    position: absolute;
+    top: 0px;
+}
+
+
+/*Menu */
+.contenedor{
+    width:80%;
+    margin: 0 auto;
+}
+
+.menu{
+    width:$porcentaje;
+    background: black;
+    text-align: center;
+
+    div{
+        width:100%;
+    }
+        ul{
+            list-style: none;
+        }
+
+            li{
+                display: inline-block;
+                padding: 1.5vw 6vw;
+                transition: all .3s ease;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                background: aqua;
+            }
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                }
+
+    }
+
+
+/*video Youtube index */
+
+.videoYoutube{
+    width: $porcentaje;
+    height: 40vw;
+    position: relative;
+}
+
+.videoYoutube iframe{
+    position: abosule;
+    top: 0px;
+    left: 0px;
+    height: $porcentaje;
+    width: $porcentaje;
+}
+
+.footer{
+    text-align: center;
+}
+
+//historia//
+
+.containerHistoria{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;    
+
+    .imagenIzquierda{
+        width: 500px;
+        float:left; 
+        margin-top: 15px; 
+        margin-right: 10px;     
+    }
+
+    .imagenDerecha{
+        width: 500px;
+        float:right;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+        .textoHistoria{
+            text-align: justify-all;
+            font-size: 25px;
+        }
+
+}
+
+
+
+

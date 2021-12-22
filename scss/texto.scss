@@ -1,0 +1,26 @@
+//index//
+.textoBienvenida{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+//general//
+.textos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+//zonas//
+.textosZonas{
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    margin: 80px;
+    font-style: oblique;
+    font-size: 30px;
+    
+}
